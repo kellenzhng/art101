@@ -7,3 +7,25 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+#output {
+  text-align: right;
+  margin-right: 100px;
+}
+
+h3 {
+    font-size: 150%;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+#scriptOutput {
+  padding: 30px;
+  margin-left: 100px;
+  margin-right: 1210px;
+  margin-top: -550px;
+  margin-bottom: 100px;
+  border: solid 1px #ffcb20;
+  background-color: #ffe992;
+  text-align: center;
+}
