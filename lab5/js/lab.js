@@ -10,13 +10,13 @@ function myFunction(param1, param2) {
 function main() {
 
     //Variables
-    make = "Santa Cruz Metro";
-    model = "Public Bus";
-    color = "White";
-    year = 2018;
+    var make = "Santa Cruz Metro";
+    var model = "Public Bus";
+    var color = "White";
+    var year = 2018;
     
     //calculate age
-    age = 2023 - year;
+    var age = 2023 - year;
     
     document.writeln("Make: " + make + "<br>");
     document.writeln("Model: " + model + "<br>");

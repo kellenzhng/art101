@@ -7,3 +7,16 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+#output {
+  text-align: left;
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+p1 {
+  float: right;
+  text-align: center;
+  margin-right: 200px;
+  margin-top: 150px;
+}
