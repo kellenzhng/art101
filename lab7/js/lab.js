@@ -1,11 +1,11 @@
 // Lab 7: Functions
-// Author: Kellen ZHeng
+// Author: Kellen Zheng
 // Date: 5/3/2023
 
 // Functions
 function sortUsername() {
         //get user's input for name
-        var username = prompt("Please enter your username: ");
+        var username = window.prompt("Please enter your username: ");
 
         //turns the user input into an array, identified by no separator so it splits every character into an element
         var arrayUsername = username.split('');
