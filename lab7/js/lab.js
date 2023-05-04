@@ -11,7 +11,10 @@ function sortUsername() {
         var arrayUsername = username.split('');
 
         //create a new array to store the sorted array
-        var arrayUsernameSorted = arrayUsername.sort();
+        //also sorts the array in a way that compares its elements in all lowercases
+        var arrayUsernameSorted = arrayUsername.sort(function (a, b)
+        {return a.toLowerCase().localeCompare(b.toLowerCase());
+        });
 
         //create an array to join the sorted array elements into a single string
         var usernameSorted = arrayUsernameSorted.join('');
@@ -20,7 +23,5 @@ function sortUsername() {
         return usernameSorted;
   }
 
-  documentwriteln("Here is your new username, I hope you like it!",
+  document.writeln("Here is your new username, I hope you like it!",
   "<br></br>", sortUsername(), "<br></br>");
-
-  
