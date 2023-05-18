@@ -30,6 +30,29 @@ function main() {
     $("#results .special").toggle();
   })
 
+  //creating a RBG burrons to change color of other buttons
+  $("#challenge").prepend("<button id = 'blue-change' class = 'blue'>Blue!</button>");
+  $("#challenge").prepend("<button id = 'green-change' class = 'green'>Green!</button>");
+  $("#challenge").prepend("<button id = 'red-change' class = 'red'>Red!</button>");
+
+  //event listener to change button text red
+  $("#red-change").click(function(){
+    $(".my-button").removeClass('green blue');
+    $(".my-button").toggleClass('red');
+  })
+
+  //event listener to change button text blue
+  $("#blue-change").click(function(){
+    $(".my-button").removeClass('green red');
+    $(".my-button").toggleClass('blue');
+  })
+
+  //event listener to change button text green
+  $("#green-change").click(function(){
+    $(".my-button").removeClass('red blue');
+    $(".my-button").toggleClass('green');
+  })
+
 
 }
 
