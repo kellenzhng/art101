@@ -20,7 +20,7 @@ function main() {
     var name = $("#userInput").val();
     //prints the sortingHat output in the "output" <div>
     $("#output").html("The Sorting Hat has sorted you into " + sortingHat(name) + "!" + "<br></br>");
-
+    //conditionals that outputs a short description corresponding to each house result
     if (sortingHat(name) == "Gryffindor") {
       $("#output").append("The lion, a valiant symbol of courage and chivalry.");
     }
