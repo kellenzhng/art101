@@ -17,6 +17,11 @@ body {
     background-color:rgb(176, 188, 228);
   }
 
+#userInput{
+  text-align:justify;
+  font-weight: bold;
+}
+
   #output {
     border: solid 3px rgb(112, 195, 243);
     background-color: rgb(201, 226, 248);
